@@ -23,13 +23,11 @@ function mul(a, b) {
 function div(a, b) {
     // Tener en cuenta division por 0
     if (b != 0){
-       //return a / b;
-       console.log("working fine");
+       //return a / b;       
        return a / b;
     } else {
     // Si b es 0 retornar "Error: div by 0"   
-       console.log("Error: div by 0"); 
-       return 0 
+       return "Error: div by 0";        
     }
     
 }
